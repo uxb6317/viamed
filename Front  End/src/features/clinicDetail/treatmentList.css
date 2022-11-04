@@ -1,0 +1,13 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.no-scroll-bar {
+  -ms-overflow-style: none;
+}
+
+.treatment-card:only-child {
+  width: 100%;
+}

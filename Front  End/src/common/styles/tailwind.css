@@ -1,0 +1,39 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+
+.input-text {
+  @apply rounded-xl shadow-lg py-4 px-5;
+}
+
+.card {
+  @apply shadow rounded-xl p-4 bg-white;
+}
+
+.btn {
+  @apply py-1 px-6 rounded-xl;
+}
+
+.btn-sm {
+  @apply px-3;
+}
+
+.btn-lg {
+  @apply py-4 px-8;
+}
+
+.btn-dark-blue {
+  @apply text-white bg-dark-blue;
+}
+
+.btn-dark-turquoise {
+  @apply text-white bg-dark-turquoise;
+}
+
+.btn-purple {
+  @apply text-white bg-primary-purple;
+}
+
+/* purgecss end ignore */
+@tailwind utilities;

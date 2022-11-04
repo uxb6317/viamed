@@ -1,0 +1,61 @@
+{
+  "name": "health-tourism-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^1.8.6",
+    "@reduxjs/toolkit": "^1.3.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "framer-motion": "^1.10.3",
+    "fuse.js": "^3.6.1",
+    "google-map-react": "^1.1.7",
+    "i18next": "^19.4.0",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^4.10.2",
+    "react-i18next": "^11.3.4",
+    "react-icons": "^3.9.0",
+    "react-load-script": "0.0.6",
+    "react-loader-spinner": "^3.1.5",
+    "react-outside-click-handler": "^1.3.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "react-scrolllock": "^5.0.1",
+    "react-spinners": "^0.8.1"
+  },
+  "scripts": {
+    "start": "npm-run-all -p start:css start:js",
+    "build": "npm-run-all build:css build:js",
+    "start:js": "react-scripts start",
+    "build:js": "react-scripts build",
+    "start:css": "postcss src/common/styles/tailwind.css -o src/common/styles/app.css -w",
+    "build:css": "postcss src/common/styles/tailwind.css -o src/common/styles/app.css --env production"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
